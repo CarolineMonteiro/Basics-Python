@@ -19,8 +19,8 @@ km_media = km / (2021 - anos)
 np_array = np.arange(1000000)
 py_list = list(range(1000000))
 
-%time for _ in range(100): np_array *= 2 # vejo o desempenho em tempo em que o código foi executado, posso ver qual performa melhor. Vai multiplicar todos os valores do array por 2 100 vezes
-%time for _ in range(100): py_list = [x * 2 for x in py_list] # no python tenho que fazer 1 por 1, o que leva mais tempo. Nesse caso o Numpy performa muito melhor.
+# %time for _ in range(100): np_array *= 2 # vejo o desempenho em tempo em que o código foi executado, posso ver qual performa melhor. Vai multiplicar todos os valores do array por 2 100 vezes
+# %time for _ in range(100): py_list = [x * 2 for x in py_list] # no python tenho que fazer 1 por 1, o que leva mais tempo. Nesse caso o Numpy performa muito melhor.
 
 # Array Numpy suporta operações entre um número e esse array:
 anos = np.array([2003, 1991, 1990, 2019, 2006])
